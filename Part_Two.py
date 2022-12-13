@@ -24,7 +24,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_sc
 
 # In[54]:
 
-s = pd.read_excel(r'C:\Users\Mboot\OneDrive\Desktop\Business School\OPIM607 - Programming Two\Assignments\Final\social_media_usage.xlsx')
+s = pd.read_excel('./social_media_usage.xlsx')
 
 
 # Q2) Define a function called clean_sm that takes one input, x, and uses `np.where` to check whether x is equal to 1. If it is, make the value of x = 1, otherwise make it 0. Return x. Create a toy dataframe with three rows and two columns and test your function to make sure it works as expected.
