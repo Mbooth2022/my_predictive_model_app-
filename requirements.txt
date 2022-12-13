@@ -7,3 +7,4 @@ altair
 plotnine
 scikit-learn
 streamlit
+openpyxl
